@@ -1,0 +1,36 @@
+CACHE MANIFEST
+
+#version 1.1.610 9-23-2013
+
+CACHE:
+
+#internal HTML documents
+http://des.unasus.gov.br/pm/mbeta/
+http://des.unasus.gov.br/pm/mbeta/styles/glyphicons.css
+http://des.unasus.gov.br/pm/mbeta/styles/default-res.css
+http://des.unasus.gov.br/pm/mbeta/styles/default.css
+http://des.unasus.gov.br/pm/mbeta/styles/fonts/glyphiconshalflings-regular.woff
+http://des.unasus.gov.br/pm/mbeta/icons/arrow.svg
+http://des.unasus.gov.br/pm/mbeta/icons/logo.svg
+http://des.unasus.gov.br/pm/mbeta/icons/menu.svg
+http://des.unasus.gov.br/pm/mbeta/icons/menu_point.svg
+http://des.unasus.gov.br/pm/mbeta/icons/splash/startup-768x1004.png
+http://des.unasus.gov.br/pm/mbeta/script/jquery.js
+http://des.unasus.gov.br/pm/mbeta/page/options.html
+http://des.unasus.gov.br/pm/mbeta/page/home.html
+http://des.unasus.gov.br/pm/mbeta/page/dengue/styles/default-res.css
+http://des.unasus.gov.br/pm/mbeta/page/dengue/styles/default.css
+http://des.unasus.gov.br/pm/mbeta/page/dengue/img/ricardo.svg
+http://des.unasus.gov.br/pm/mbeta/page/dengue/img/gisele.svg
+http://des.unasus.gov.br/pm/mbeta/page/dengue/img/unasus.svg
+http://des.unasus.gov.br/pm/mbeta/page/dengue/img/activeside.svg
+http://des.unasus.gov.br/pm/mbeta/page/dengue/stage.html
+http://des.unasus.gov.br/pm/mbeta/page/dengue/data.xml
+http://des.unasus.gov.br/pm/mbeta/page/dengue/banner.png
+http://des.unasus.gov.br/pm/mbeta/page/dengue/res/C0000.html
+http://des.unasus.gov.br/pm/mbeta/page/dengue/res/C0001.html
+http://des.unasus.gov.br/pm/mbeta/page/dengue/res/C0002.html
+http://des.unasus.gov.br/pm/mbeta/page/dengue/res/C0003.html
+
+NETWORK:
+*

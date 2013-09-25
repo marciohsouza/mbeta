@@ -1,0 +1,31 @@
+<h3><a name="anc00"></a>6.4.1 - Estadiamento clínico e conduta - Caracterização </h3>
+<div id="tabelatexto">
+  <h4>Como caracterizar os pacientes do Grupo D?</h4>
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr bgcolor="#dc4f4f">
+      <td>Grupo D</td>
+    </tr>
+    <tr>
+      <td>Febre por até sete dias, acompanhada de pelo menos dois sinais e sintomas inespecíficos (cefaleia, prostração, dor  retro-orbitária, exantema, mialgias, artralgias) e história epidemiológica compatível</td>
+    </tr>
+    <tr>
+      <td><a onClick="makehipertext('H0002','anc06');">Presença de sinais de choque</a>, desconforto respiratório ou disfunção grave de órgãos</td>
+    </tr>
+    <tr>
+      <td>Manifestações hemorrágicas presentes ou ausentes (PL positiva ou negativa ou sem necessidade de se fazer)</td>
+    </tr>
+    <tr>
+      <td><strong>Sinais de choque:</strong><br />
+        Pressão arterial convergente (PA diferencial &ge; 20 mmHg.)<br />
+        Extremidades frias: cianose.<br />
+        Pulso rápido e fino.<br />
+        Enchimento capilar lento.<br />
+        Hipotensão arterial. </td>
+    </tr>
+  </table>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p>Como realizar a <a onClick="makehipertext('H0027');">conduta diagnóstica</a> do Grupo D?</p>
+  <p>Como realizar a <a onClick="makehipertext('H0027');">conduta terapêutica</a> do Grupo D?</p>
+</div>

@@ -1,0 +1,12 @@
+<h3>Prova do Laço - Vídeo</h3>
+<div id="texto">
+  <center>
+    <video width="500" height="340" controls autoplay>
+      <source src="page/dengue/res/imghiper/video_0001.mp4" type="video/mp4" />
+      <source src="page/dengue/res/imghiper/video_0001.ogv" type="video/ogg" />
+    </video>
+  </center>
+</div>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0067');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0066');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

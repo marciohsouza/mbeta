@@ -1,0 +1,10 @@
+<h3><a name="anc00"></a>3.2.2 - Atendimento ao paciente com suspeita de dengue - Epidemiologia</h3>
+<div id="lista">
+  <div id"imagem"> <img src="page/dengue/res/imghiper/diagH0022.png" /> </div>
+  <br />
+  <div id="informacao">Importante questionar o paciente acerca de contato com água de enchente (leptospirose), ratos (leptospirose e hantavirose), picada de carrpatos (febre maculosa) e sobre deslocamento para região com circulação de malária, febre amarela ou doença meningocócica. A apresentação clínica incial nestes casos pode se assemelhar à dengue e como vários destes agravos requerem tratamento específico precoce o profissional de saúde deve estar bastante atento a estes diagnósticos diferenciais. </div>
+  <p>Como realizar o <a onClick="makehipertext('H0009');">exame físico completo em casos suspeitos de dengue</a>?</p>
+</div>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0006');" id="topicoanterior">Tópico anterior</a> <a onClick="makehipertext('H0008');" id="proximoanterior">Próximo tópico</a></p>
+</div>

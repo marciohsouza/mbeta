@@ -1,0 +1,84 @@
+<h3><a name="anc00"></a>6.1.2.1 - Estadiamento clínico e conduta - Conduta diagnóstica</h3>
+<div id="personalizado">
+  <h4>Como realizar a conduta diagnóstica do Grupo A?</h4>
+  <div id="">
+    <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+      <tr>
+        <td colspan="3" align="left" valign="top" bgcolor="#75d4f7"><strong>GRUPO A</strong></td>
+      </tr>
+      <tr>
+        <td colspan="3" align="left" valign="top" bgcolor="#CCE4F0">Conduta diagnóstica</td>
+      </tr>
+      <tr>
+        <td align="left" valign="top" bgcolor="#75d4f7"><strong>Tipos de exames</strong></td>
+        <td align="left" valign="top">Exames específicos</td>
+        <td align="left" valign="top">Exames inespecíficos</td>
+      </tr>
+      <tr>
+        <td align="left" valign="top" bgcolor="#75d4f7"><strong>Exames</strong></td>
+        <td align="left" valign="top" bgcolor="#CCE4F0"><p>Isolamento viral/sorologia Solicitação orientada de acordo com a situação epidemiológica:</p>
+          <p>Em períodos não epidêmicos, solicitar o exame de todos os casos suspeitos;</p>
+          <p>Em períodos epidêmicos, solicitar o exame em todo paciente grave e grupos especiais e/ou em risco social ou com dúvidas no diagnóstico, além de seguir as orientações da Vigilância Epidemiológica de cada região </p></td>
+        <td align="left" valign="top" bgcolor="#CCE4F0"><p><a href="#anc01">Hemograma completo</a></p>
+          <p>Hemograma a critério médico </p></td>
+      </tr>
+    </table>
+    <p>Como realizar a <a onClick="makehipertext('H0020');">conduta terapêutica</a> do Grupo A? </p>
+  </div>
+  <p></p>
+  <p></p>
+  <h3><a name="anc01"></a>6.1.2.1 - Estadiamento clínico e conduta - Conduta diagnóstica (hemograma completo)</h3>
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+      <td colspan="2" align="left" valign="top" bgcolor="#ccc"><strong>HEMOGRAMA COMPLETO</strong></td>
+      <td width="34%"></td>
+    </tr>
+    <tr>
+      <td height="10" colspan="3" align="left" valign="top"></td>
+    </tr>
+    <tr>
+      <td width="12%" align="left" valign="top"></td>
+      <td colspan="2" align="left" valign="top" bgcolor="#E9E9E9">A coleta deve ser feita no momento do atendimento, com liberação do resultado em tempo hábil (mesmo dia) para avaliação e manejo clínico adequado e precoce (<a onClick="makehipertext('H0019');">eritrograma: valores de referência</a>).</td>
+    </tr>
+    <tr>
+      <td height="10" colspan="3" align="left" valign="top"></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"></td>
+      <td colspan="2" align="left" valign="top" bgcolor="#E9E9E9">Na dengue, o leucograma é variável (a leucopenia pode indicar outra infecção viral e a leucocitose não afasta a doença).</td>
+    </tr>
+    <tr>
+      <td height="10" colspan="3" align="left" valign="top"></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"></td>
+      <td colspan="2" align="left" valign="top" bgcolor="#E9E9E9">Nos pacientes do Grupo A não há hemoconcentração nem queda abrupta de plaquetas.</td>
+    </tr>
+    <tr>
+      <td height="10" colspan="3" align="left" valign="top"></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"></td>
+      <td colspan="2" align="left" valign="top" bgcolor="#E9E9E9">A plaquetopenia não constitui necessariamente fator de risco para sangramento em pacientes com suspeita de dengue, mas a queda progressiva de plaquetas indica a necessidade de acompanhamento mais atento, sendo considerado um sinal de alarme. A elevação das plaquetas, quando associadas à melhora clínica do paciente, aponta para a recuperação favorável.</td>
+    </tr>
+    <tr>
+      <td height="10" colspan="3" align="left" valign="top"></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"></td>
+      <td colspan="2" align="left" valign="top" bgcolor="#E9E9E9">Atenção: O hemograma tem como finalidade principal avaliar o hematócrito para identificação de hemoconcentração. Hemoconcentração indica provável alteração de permeabilidade capilar (extravasamento plasmático), associado à gravidade, além de definir a necessidade de hidratação e resposta à terapia de reposição instituída. Queda de hematócrito pode sugerir hemorragias.</td>
+    </tr>
+  </table>
+</div>
+<p> 
+  <!-- Texto do Pop-up !--> <a onClick="makehipertext('H0020');">Como realizar a conduta terapêutica do grupo A</a>? </p>
+<p></p>
+<p></p>
+<h3><a name="anc02"></a>6.1.2.1 - Estadiamento clínico e conduta - Conduta diagnóstica</h3>
+<div id="imagem"> <img src="page/dengue/res/imghiper/diagH0041.png" /> </div>
+<p></p>
+<p></p>
+<p></p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0018');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0020');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

@@ -1,0 +1,63 @@
+<h3><a name="anc00">3.3.2 - Atendimento ao paciente com suspeita de dengue - Prova do laço</a></h3>
+<div id="personalizado">
+  <div id"imagem"> <img src="page/dengue/res/imghiper/diagH0028.png" /> </div>
+  <p></p>
+  <p></p>
+  <p><a href="#anc01">Como realizar corretamente a Prova do laço?</a> </p>
+  <p><a onClick="makehipertext('H0068');">Ver vídeo demonstrativo da Prova do Laço</a></p>
+  <p>A <a onClick="makehipertext('H0044');">prova do laço é útil</a>?</p>
+  <p>Como realizar o <a onClick="makehipertext('H0009');">exame físico completo em casos suspeitos de dengue</a>?</p>
+</div>
+<p></p>
+<p></p>
+<h3><a name="anc01" id="anc01"></a>3.3.2 - Atendimento ao paciente com suspeita de dengue - Prova do laço</h3>
+<div id="personalizado2">
+  <h4>Como realizar corretamente a Prova do laço?</h4>
+  <table width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+    <tr>
+      <td width="34%" align="center" valign="middle"><p><img src="page/dengue/res/imghiper/0007.png" alt="" width="90%" /></p>
+        <p><i>Foto: Arquivo Una-SUS</i></p></td>
+      <td width="33%" align="center" valign="middle"><img src="page/dengue/res/imghiper/P1000054.png" alt="" width="90%" height="" /><br />
+        <p><i>Foto: Arquivo Una-SUS</i></p></td>
+      <td width="33%" align="center" valign="middle"><img src="page/dengue/res/imghiper/P1000093.png" alt="" width="90%" height="" /><br />
+        <p><i>Foto: Arquivo Una-SUS</i></p></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top">Verificar a pressão arterial e calcular o valor médio pela fórmula (PAS + PAD)/2; por exemplo, PA de 100 x 60 mmHg, então 100+60=160, 160/2=80; então, a média de pressão arterial é de 80 mmHg </td>
+      <td align="left" valign="top">Insuflar o manguito até o valor médio e manter durante cinco minutos nos adultos e três minutos em crianças. </td>
+      <td align="left" valign="top">Desenhar um quadrado com 2,5 cm de lado no antebraço e contar o número de petéquias formadas dentro dele. A prova será positiva se houver 20 ou mais petéquias em adultos e 10 ou mais em crianças. Atenção para o surgimento de possíveis petéquias em todo o antebraço, dorso das mãos e nos dedos. </td>
+    </tr>
+  </table>
+  <p>Como se apresenta a<a href="#anc2"> prova do laço positiva e negativa</a>?</p>
+</div>
+<p></p>
+<p></p>
+<h3><a name="anc2" id="anc2"></a>3.3.2 - Atendimento ao paciente com suspeita de dengue - Prova do laço</h3>
+<br />
+<div id="personalizado3"> 
+  <!-- substituir isto pelo texto ou recurso !-->
+  <table width="70%" border="0" align="center" cellpadding="5" cellspacing="0">
+    <tr>
+      <td width="50%" align="left" valign="middle">Prova do laço positiva</td>
+      <td width="50%" align="left" valign="middle">Prova do laço negativa</td>
+    </tr>
+    <tr>
+      <td align="left"><img src="page/dengue/res/imghiper/P1000055_.png" width="90%" alt="" /></td>
+      <td align="left"><img src="page/dengue/res/imghiper/P1000056_.png" width="90%" alt="" /></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><p><i>Foto: Arquivo Una-SUS</i></p>
+        <br />
+        Se a prova do laço apresentar-se positiva antes do tempo preconizado para adultos e crianças, a mesma pode ser interrompida. </td>
+      <td align="left" valign="top"><p><i>Foto: Arquivo Una-SUS</i></p>
+        <br />
+        A prova do laço frequentemente pode ser negativa em pessoas obesas e durante o choque </td>
+    </tr>
+  </table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0010');" id="topicoanterior">Tópico anterior</a> <a onClick="makehipertext('H0012');" id="proximoanterior">Próximo tópico</a></p>
+</div>

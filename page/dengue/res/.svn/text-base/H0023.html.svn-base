@@ -1,0 +1,51 @@
+<h3> <a name="anc01" id="anc01"></a>6.2.2.2 - Estadiamento clínico e conduta - Conduta diagnóstica (Grupo B) </h3>
+<h4>Como realizar a conduta terapêutica do Grupo B?</h4>
+<div id="tabela">
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+      <td rowspan="2"></td>
+      <td rowspan="7"></td>
+      <td bgcolor="#f4f8ee">Acompanhamento: obsercação até resultado de exames.</td>
+    </tr>
+    <tr>
+      <td height="10"></td>
+    </tr>
+    <tr>
+      <td rowspan="3" bgcolor="#c6e6a4"><strong>GRUPO B</strong></td>
+      <td bgcolor="#f4f8ee"><a onClick="makehipertext('H0020','anc01');">Hidratação oral conforme recomendado para o grupo A, até o resultado do exame.</a></td>
+    </tr>
+    <tr>
+      <td height="10"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f4f8ee"><a onClick="makehipertext('H0020','anc02');">Sintomáticos conforme recomendado para o grupo A</a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"></td>
+      <td height="10"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f4f8ee"><a href="#anc02">Reavaliação e conduta após resultado de exames</a></td>
+    </tr>
+  </table>
+  <p>Como proceder em <a onClick="makehipertext('H0043');">situações especiais</a>?</p>
+</div>
+<p></p>
+<p></p>
+<h3><a name="anc02" id="anc02"></a>6.2.2.2 - Estadiamento clínico e conduta - Conduta terapêutica (reavaliação)</h3>
+<div id="imagem"> <img src="page/dengue/res/imghiper/diagH0055.png" /> </div>
+<p>Como proceder quanto à <a href="#anc03">reavaliação em pacientes do grupo B com exames iniciais alterados</a>?</p>
+<p></p>
+<p></p>
+<h3> <a name="anc03" id="anc03"></a>6.2.2.2 - Estadiamento clínico e conduta - Conduta diagnóstica (hematócrito) </h3>
+<div id="imagem"> <img src="page/dengue/res/imghiper/diagH0056.png" />
+  <p>Como proceder quanto ao <a href="#anc04">retorno de pacientes do grupo B manejados ambulatorialmente</a>?</p>
+</div>
+<p></p>
+<p></p>
+<h3> <a name="anc04" id="anc04"></a>6.2.2.2 - Estadiamento clínico e conduta - Conduta diagnóstica (retorno) </h3>
+<h4>Como proceder quanto ao agendamento de retorno para pacientes do Grupo B que serão manejados ambulatorialmente?</h4>
+<div id="imagem"> <img src="page/dengue/res/imghiper/diagH0057_1.png" /> </div>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0022');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0024');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

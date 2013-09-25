@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unasusapp>
+  <courseinfo>
+    <course>Atualização do Manejo Clínico da Dengue</course>
+    <release>alpha</release>
+    <version>1.0.0</version>
+    <info>Este curso é resultado de uma parceria entre o Ministério da Saúde e a Universidade Aberta do SUS (UNA-SUS). O objetivo da iniciativa é fazer com que médicos e enfermeiros da atenção básica e da urgência e emergência aprendam ou se aperfeiçoem no diagnóstico e tratamento da dengue. A expectativa é de que a capacitação dos profissionais, por meio de quatro casos clínicos que ocorrem comumente no dia a dia, possibilite uma redução ainda maior dos casos graves e da mortalidade pela doença.</info>
+  </courseinfo>
+  <databasequestions>
+    <case linktocase="1">
+      <informations linktocase="1">
+        <id>1</id>
+        <name>Caso Ricardo</name>
+        <totalquestions>9</totalquestions>
+        <coursecolor>FF5E3D</coursecolor>
+        <fontcolor>7D2E1E</fontcolor>
+        <image>ricardo.svg</image>
+      </informations>
+      <question questionid="1" linktocase="1">
+        <idq>1</idq>
+        <qtype>b</qtype>
+        <info>Exame físico</info>
+        <content>C0001</content>
+      </question>
+      <question questionid="2" linktocase="1">
+        <idq>2</idq>
+        <qtype>a</qtype>
+        <info>Decisão 01</info>
+        <pergunta>Em relação à conduta imediata mais adequada para este paciente, assinale a alternativa correta:</pergunta>
+        <respostaa>Realizar imediatamente a prova do laço, que pode afastar ou confirmar a hipótese de dengue.</respostaa>
+        <respostab>Coletar história epidemiológica e vacinal para realização do diagnóstico diferencial com outros agravos infecciosos.</respostab>
+        <respostac>Coletar amostra para hemograma por ser imprescindível para a classificação inicial da gravidade do paciente com dengue.</respostac>
+        <correta>b</correta>
+      </question>
+      <question questionid="3" linktocase="1">
+        <idq>3</idq>
+        <qtype>a</qtype>
+        <info>Decisão 02</info>
+        <pergunta>Em relação ao exantema apresentado pelo paciente, podemos afirmar corretamente que:</pergunta>
+        <respostaa>Apresenta padrão petequial, eliminando a necessidade de realização da prova do laço.</respostaa>
+        <respostab>Constitui um sinal de alarme, indicando necessidade de hidratação venosa.</respostab>
+        <respostac>Apresenta o padrão tipicamente observado no paciente com dengue clássica, não interferindo no estadiamento clínico.</respostac>
+        <correta>c</correta>
+      </question>
+      <question questionid="4" linktocase="1">
+        <idq>4</idq>
+        <qtype>a</qtype>
+        <info>Decisão 03</info>
+        <pergunta>Em relação à realização da prova do laço neste paciente, assinale os parâmetros corretos da pressão e tempo de insuflação do manguito:</pergunta>
+        <respostaa>Insuflar o manguito a 120 mmHg e permanecer insuflado por 10 minutos.</respostaa>
+        <respostab>Insuflar o manguito a 100 mmHg e permanecer insuflado por 5 minutos.</respostab>
+        <respostac>Insuflar o manguito a 80 mmHg e permanecer insuflado por 3 minutos.</respostac>
+        <correta>b</correta>
+      </question>
+      <question questionid="5" linktocase="1">
+        <idq>5</idq>
+        <qtype>a</qtype>
+        <info>Decisão 04</info>
+        <pergunta>Consulte a classificação clínica pelo icone de fluxograma e, à partir da interpretação da prova do laço, assinale a sua próxima conduta:</pergunta>
+        <respostaa>Classificar o paciente como A.</respostaa>
+        <respostab>Classificar o paciente como B e solicitar hemograma.</respostab>
+        <respostac>Classificar o paciente como C e iniciar hidratação venosa imediata.</respostac>
+        <correta>a</correta>
+      </question>
+      <question questionid="6" linktocase="1">
+        <idq>6</idq>
+        <qtype>a</qtype>
+        <info>Decisão 05</info>
+        <pergunta>Qual a melhor orientação para este paciente?</pergunta>
+        <respostaa>Aumentar em 50% a ingesta habitual de cerca de 1,5 litro por dia, com líquido da preferência do paciente.</respostaa>
+        <respostab>Ingerir de cerca de 3 litros de líquido por dia, sendo 1/3 do volume na forma de sais de reidratação oral.</respostab>
+        <respostac>Ingerir de cerca de 5 litros de líquido por dia, sendo 1/3 do volume na forma de sais de reidratação oral.</respostac>
+        <correta>c</correta>
+      </question>
+      <question questionid="7" linktocase="1">
+        <idq>7</idq>
+        <qtype>a</qtype>
+        <info>Decisão 06</info>
+        <pergunta>Além das orientações sobre hidratação e do preenchimento do cartão da dengue, quais outras orientações devem ser dadas ao paciente ao final da consulta?</pergunta>
+        <respostaa>Retorno no quinto dia de doença, no dia de melhora da febre ou em qualquer momento se apresentar sinais de alarme.</respostaa>
+        <respostab>Retorno diário até o sétimo dia de doença, preenchimento do cartão da dengue.</respostab>
+        <respostac>Retorno apenas se apresentar sinais de alarme.</respostac>
+        <correta>a</correta>
+      </question>
+      <question questionid="8" linktocase="1">
+        <idq>8</idq>
+        <qtype>a</qtype>
+        <info>Decisão 07</info>
+        <pergunta>Para o diagnóstico etiológico de dengue, deve-se solicitar a sorologia deste paciente em que momento?</pergunta>
+        <respostaa>Imediatamente, pois a sorologia deve ser coletada até o quinto dia de doença.</respostaa>
+        <respostab>Imediatamente, pois a sorologia da dengue deve ser coletada a partir do quarto dia de doença.</respostab>
+        <respostac>Este paciente deve ser orientado a retornar no sexto dia após o início dos sintomas para coleta da sorologia.</respostac>
+        <correta>c</correta>
+      </question>
+      <question questionid="9" linktocase="1">
+        <idq>9</idq>
+        <qtype>b</qtype>
+        <info>Conclusão do caso</info>
+        <content>C0002</content>
+      </question>
+    </case>
+    <case linktocase="2">
+      <informations linktocase="2">
+        <id>2</id>
+        <name>Caso Gisele</name>
+        <totalquestions>4</totalquestions>
+        <coursecolor>8FBE00</coursecolor>
+        <fontcolor>5A751E</fontcolor>
+        <image>gisele.svg</image>
+      </informations>
+	  <question questionid="1" linktocase="2">
+        <idq>1</idq>
+        <qtype>b</qtype>
+        <info>Exame físico</info>
+        <content>C0004</content>
+      </question>
+      <question questionid="2" linktocase="2">
+        <idq>2</idq>
+        <qtype>a</qtype>
+        <info>Decisão 01</info>
+        <pergunta>A partir da avaliação clínica realizada, como esta paciente deve ser classificada?</pergunta>
+        <respostaa>Classificação A: encaminhar para o domicílio com orientação para hidratação oral.</respostaa>
+        <respostab>Classificação B: orientar hidratação oral supervisionada e solicitar hemograma com plaquetas na urgência.</respostab>
+        <respostac>Classificação C: encaminhar para internação em leito de observação e iniciar imediatamente hidratação venosa (20ml/kg/h nas primeiras duas horas) até disponibilidade do resultado de hemograma.</respostac>
+        <correta>b</correta>
+      </question>
+      <question questionid="3" linktocase="2">
+        <idq>3</idq>
+        <qtype>a</qtype>
+        <info>Decisão 02</info>
+        <pergunta>Assinale a conduta seguinte mais adequada a partir da análise deste resultado de exames:</pergunta>
+        <respostaa>Orientar hidratação oral domiciliar a 80 ml/kg/dia com reavaliação clínica diária.</respostaa>
+        <respostab>Encaminhar para admissão em leito de internação e início de hidratação parenteral (20ml/kg/h nas primeiras 2 horas) associada à transfusão de plaquetas.</respostab>
+        <respostac>Encaminhar para admissão em leito de internação e início de hidratação parenteral (20ml/kg/h nas primeiras 2 horas) e sem indicação de transfusão de plaquetas.</respostac>
+        <correta>a</correta>
+      </question>
+      <question questionid="4" linktocase="2">
+        <idq>4</idq>
+        <qtype>a</qtype>
+        <info>Decisão 03</info>
+        <pergunta>No dia seguinte, a paciente nega presença de sinais de alarme e apresenta níveis tensionais estáveis (PA: 120x80 mmHg (sentada) 110x70 mmHg (em ortostatismo). Resultado de exames realizados no dia da reavaliação: Ht: 48%. Plaquetas: 80.000. Assinale a alternativa que apresenta a conduta apropriada neste momento:</pergunta>
+        <respostaa>Manter hidratação oral domiciliar a 80 ml/kg/dia com reavaliação clínica ambulatorial diária.</respostaa>
+        <respostab>Encaminhamento para admissão em leito de internação e início de hidratação parenteral (20ml/kg/h nas primeiras 2 horas) associada à transfusão de plaquetas.</respostab>
+        <respostac>Encaminhamento para admissão em leito de internação e início de hidratação parenteral (20ml/kg/h nas primeiras 2 horas) e sem indicação de transfusão de plaquetas.</respostac>
+        <correta>c</correta>
+      </question>
+      <question questionid="5" linktocase="2">
+        <idq>5</idq>
+        <qtype>b</qtype>
+        <info>Conclusão do caso</info>
+        <content>C0003</content>
+      </question>
+    </case>
+  </databasequestions>
+</unasusapp>

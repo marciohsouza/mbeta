@@ -1,0 +1,43 @@
+﻿<style>
+.headerimage {
+	margin-top: 100px;
+	height: 150px;
+	width: 100%;
+	display: block;
+}
+.headerfinal {
+	font-weight: 200;
+	padding: 10px 0px 15px 0px;
+	text-align: center;
+	color: #666666;
+}
+</style>
+
+<img class="headerimage" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTAwcHgiIGhlaWdodD0iMTAwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxjaXJjbGUgb3BhY2l0eT0iMC41IiBmaWxsPSIjOENDNjNGIiBjeD0iNTAiIGN5PSI1MCIgcj0iNDUuNjc4Ii8+DQo8Y2lyY2xlIGZpbGw9IiM4Q0M2M0YiIGN4PSI1MCIgY3k9IjUwIiByPSIzOS4xMzYiLz4NCjxnPg0KCQ0KCQk8cmVjdCB4PSIxNy4wMiIgeT0iNTUuODMyIiB0cmFuc2Zvcm09Im1hdHJpeCgwLjcwNzEgMC43MDcxIC0wLjcwNzEgMC43MDcxIDUxLjQyMTIgLTUuNDc3MykiIGZpbGw9IiNGMkYyRjIiIHdpZHRoPSIzMC42MDQiIGhlaWdodD0iNyIvPg0KCQ0KCQk8cmVjdCB4PSIyOS44NDUiIHk9IjQ2LjUiIHRyYW5zZm9ybT0ibWF0cml4KC0wLjcwNzEgMC43MDcxIC0wLjcwNzEgLTAuNzA3MSAxMzQuOTU3MiA0NC4wOTg5KSIgZmlsbD0iI0YyRjJGMiIgd2lkdGg9IjU3IiBoZWlnaHQ9IjciLz4NCjwvZz4NCjwvc3ZnPg0K" />
+<h1 class="headerfinal">Você concluiu este caso clínico!</h1>
+<p>
+<h2 class="headerfinal">Objetivos alcançados</h2>
+<ul>
+  <li>Identificar os critérios clínicos de suspeição de dengue;</li>
+  <li>Indentificar o padrão típico do exantema na dengue;</li>
+  <li>Listar o diagnóstico diferencial de um quadro de dengue com exantema;</li>
+  <li>Classificar o paciente com dengue;</li>
+  <li>Calcular o volume de hidratação de um paciente com dengue sem comorbidades;</li>
+  <li>Compreender a importância da prova do laço;</li>
+  <li>Identificar as etapas de realização da prova do laço;</li>
+  <li>Indicar o momento correto da coleta da sorologia para dengue;</li>
+  <li>Identificar as indicações de realização de hemograma em um paciente com suspeita de dengue;</li>
+  <li>Calcular adequadamente o volume de hirdratação oral de um paciente com suspeita de dengue.</li>
+</ul>
+</p>
+<h2 class="headerfinal">Discussão do caso</h2>
+<p>Este caso descreve o manejo clínico de um paciente classificado como A, ou seja, de um paciente que não apresentava comorbidades, risco social, ou situação clínica especial, sua prova do laço era negativa e também não apresentava sinais de alerta, nem sinais de choque. Na primeira decisão clínica, ressalta-se a importância de uma avaliação clínica cuidadosa e a coleta de uma história epidemiológica (viagens recentes, contato com vetores ou com água potencialmente contaminada) e vacinal adequadas para auxiliar no diagnóstico diferencial com outros agravos (Cota et al., 2008; Figueiredo, 2006). A dengue apresenta sinais e sintomas inespecíficos e na sua apresentação inicial podem se confundir com outros agravos potencialmente graves como leptospirose, malária, febre amarela, febre maculosa, doença meningocócica, sendo que várias delas possuem terapia específica.</p>
+<p>O caso apresenta também a discussão da metodologia mais apropriada para realização da prova do laço e sua interpretação. Se você ainda está em dúvidas sobre a metodologia da realização deste exame, veja o vídeo. Em relação à interpretação do seu resultado, é importante destacar que a prova do laço negativa NÃO exclui o diagnóstico de dengue e que a prova do laço positiva, apesar de não confirmar o diagnóstico, aponta para a necessidade de um acompanhamento clínico mais atento deste paciente (em caso de dúvida, reveja o manejo de pacientes com classificação clínica B).</p>
+<p>O caso discute também o exantema no paciente com dengue. Este aparece em grande parte dos paciente, tem padrão maculo-papular, eventualmente com descamação e associado a prurido cutâneo generalizado (Lupi et al., 2007) . A presença do exantema maculopapular não indica um pior prognóstico. Entretanto, o aparecimento de petéquias indica a necessidade de um acompanhamento mais atento do paciente (em caso de dúvida, reveja o manejo de pacientes com classificação clínica B).</p>
+<p>Outra questão do caso aborda o volume e a via de hidratação em um paciente com classificação clínica A. De acordo com as orientações do manual do Ministério da Saúde, este paciente deve receber 80 ml/kg/dia de líquido sendo pelo menos um terço na forma de sais de reidratação oral.</p>
+<p>Por fim, o caso aborda o momento de realização da sorologia da dengue, que deve ser coletada a partir do momento em que os níveis de anticorpos IgM passam a ser detectados na maior parte dos indivíduos, ou seja, a partir do sexto dia do início dos sintomas.</p>
+<p>Referências: <br>
+  - Brasil. Ministério da Saúde. Secretaria de Vigilância em Saúde. Diretoria Técnica de Gestão. Dengue : diagnóstico e manejo clínico – adulto e criança / Ministério da Saúde, Secretaria de Vigilância em Saúde, Diretoria Técnica de Gestão. – 4. ed. – Brasília : Ministério da Saúde, 2011. <br>
+  - Cota, GF, Andrade, VA, Brock, DR. Características clínicas, laboratoriais e epidemiológicas de pacientes com suspeita de febre hemorrágica em um centro de referência em doenças infecciosas. Rev Bras Med, 2008; 65 (9): 292-296. <br>
+  - Figueiredo, LTM. Febres hemorrágicas por vírus no Brasil. Rev Soc Bras Med Trop, 2006; 39 (2): 203-210. <br>
+  - Lupi, O, Carneiro, CG, Coelho, ICB. Manifestações mucocutâneas da dengue. An Bras Dermatol, 2007; 82 (4): 291-305.</p>

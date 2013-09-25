@@ -1,0 +1,230 @@
+﻿<!doctype html>
+<html manifest="unasusbeta.appcache" manifest="unasusbeta.manifest" lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>UNA-SUS Mobile</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="application-name" content="UNA-SUS"/>
+<meta name="msapplication-TileColor" content="#005EAA"/>
+<meta name="msapplication-square70x70logo" content="tiny.png"/>
+<meta name="msapplication-square150x150logo" content="square.png"/>
+<meta name="msapplication-wide310x150logo" content="wide.png"/>
+<meta name="msapplication-square310x310logo" content="large.png"/>
+<meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://www.unasus.gov.br/rss.xml&id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://www.unasus.gov.br/rss.xml&id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://www.unasus.gov.br/rss.xml&id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://www.unasus.gov.br/rss.xml&id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://www.unasus.gov.br/rss.xml&id=5; cycle=1"/>
+<meta name="msApplication-ID" content="unasus.build.appmobile"/>
+<meta name="msApplication-PackageFamilyName" content="unasus.appmobile"/>
+<meta name="msapplication-TileImage" content="large.png"/>
+<link rel="stylesheet" href="styles/default.css" media="all">
+<link rel="stylesheet" href="styles/default-res.css">
+<link rel="apple-touch-icon" href="icons/touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="icons/touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="icons/touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="icons/touch-icon-ipad-retina.png" />
+<!-- splash -->
+<link rel="apple-touch-startup-image" href="icons/splash/startup-320x460.png" media="screen and (max-device-width : 320px)">
+<link rel="apple-touch-startup-image" href="icons/splash/startup-640x920.png" media="(max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2)">
+<link rel="apple-touch-startup-image" href="icons/splash/startup-640x1096.png" media="(max-device-width : 548px) and (-webkit-min-device-pixel-ratio : 2)">
+<link rel="apple-touch-startup-image" sizes="1024x748" href="icons/splash/startup-1024x748.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)">
+<link rel="apple-touch-startup-image" sizes="768x1004" href="icons/splash/startup-768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
+<script src="script/jquery.js"></script>
+<script>
+var userAgent = window.navigator.userAgent;
+	if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+		if (window.navigator.standalone == true) {
+			document.write('<style>#installrequired{display:none !important;} #thebody{filter: grayscale(1) blur(0.5px);}</style>');
+		}else{
+			document.write('<style>#installrequired{};</style>');
+		}
+	}
+	else {
+	   document.write('<style>#installrequired{display:none !important;} #thebody{filter: grayscale(1) blur(0.5px);}</style>');
+	}
+	function updateIndicator() {
+	 if (navigator.onLine) {
+		 $('#indicator').text('Conteúdo online disponível');
+		 document.write('<style>.onlineonly { display:default; }</style>');
+	 } 
+	 if (!(navigator.onLine)) {
+		 $('#indicator').text('Modo offline');
+		 document.write('<style>.onlineonly { display:none; }</style>');
+	 }
+}
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+      var msViewportStyle = document.createElement("style");
+      msViewportStyle.appendChild(
+          document.createTextNode(
+              "@-ms-viewport{width:auto!important}"
+          )
+      );
+     document.getElementsByTagName("head")[0].
+          appendChild(msViewportStyle);
+}
+</script>
+</head>
+<body onload="updateIndicator();" ononline="updateIndicator();" onoffline="updateIndicator();">
+<div id="loading_status">
+  <div id="updatecache"><span>Aguarde...</span></div>
+</div>
+<div id="menu_area" onClick="menuapp('0');">
+  <div id="menu_size">
+    <div id="menu_pointer"></div>
+    <div id="the_menu">
+      <ul>
+        <li><a href="#"><span id="indicator">(estado da conexão indisponível)</span></a></li>
+        <li><a href="#">Universidade Aberta do SUS</a></li>
+        <li><a href="#" class="glyphicon glyphicon-cog" onClick="appoptions('1');"> Configurações</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="installrequired">
+  <div id="alert_install"><strong>Atenção</strong>Para usar este site, por favor, toque no botão "+" e selecione "Adicionar a tela de inicial" ou "Add to Homescreen".</div>
+</div>
+<div id="header">
+  <div id="buttons_left">
+    <div id="btn_return" onClick="buttonheader('2','Cursos','home');">Cursos</div>
+  </div>
+  <div id="buttons_right">
+    <div id="btn_menu" onClick="menuapp('1');">Menu</div>
+  </div>
+</div>
+<div id="theoptions"></div>
+<div id="thebody">
+  <center>
+    Não existe conteúdo no momento.
+  </center>
+</div>
+<div id="footer" style="display:none;"></div>
+</body>
+<script>
+function blurthebg(activate) {
+	if (activate === "0") {
+		$('#thebody').removeClass('blurelement');
+		$('#thebody').addClass('unblurelement');
+	}
+	if (activate === "1") {
+		$('#thebody').removeClass('unblurelement');
+		$('#thebody').addClass('blurelement');
+	}
+}
+function loadingframe() {
+	$('#loading_status').fadeOut('fast');
+	//blurthebg('0');
+}
+function buttonheader(activate,name,goto) {
+	if (activate === "1") {
+		$('#header #buttons_left #btn_return').fadeIn('fast').text(name);
+		$('#header #buttons_left #btn_return').attr('onClick',goto);
+	}
+	if (activate === "2") {
+		$('#header #buttons_left #btn_return').fadeIn('fast').text(name);
+		$('#header #buttons_left #btn_return').attr('onClick',"loadthebody('" + goto + "');");
+	}
+	if (activate === "0") {
+		$('#header #buttons_left #btn_return').fadeOut('fast').text(name);
+	}
+}
+function loadthebody(type) {
+	var $data = $('#thebody');
+		//$data.fadeOut(0, function() { 
+			$data.load('page/'+type+'.html', function() { 
+				//$data.fadeIn(0);
+				loadingframe();		
+			}); 
+		//});
+}
+function menuapp(activate) {
+	if (activate === "2") {
+		$('#menu_area').fadeOut('fast');
+	}
+	if (activate === "0") {
+		blurthebg('0');
+		$('#menu_area').fadeOut('fast');
+	}
+	if (activate === "1") {
+		blurthebg('1');
+		$('#menu_area').fadeIn('fast');
+	}
+}
+function appoptions(openopt) {
+	if (openopt === "1") {
+		$('#theoptions').css('display','block');
+		$('#thebody').css('display','none');
+		var $data = $('#theoptions');
+		$data.fadeOut(0, function() { 
+			$data.load('page/options.html', function() { 
+				$data.fadeIn(0);		
+			}); 
+		});
+	}
+	if (openopt === "0") {
+		$('#theoptions').css('display','none');
+		$('#thebody').css('display','block');
+	}
+}
+var theLocalStorage = localStorage.getItem('appdata');
+if (theLocalStorage == null) {
+	localStorage.setItem('appdata', 'active');
+} else {
+}
+function setstorage(key,value) {
+	localStorage.setItem(key,value);
+}
+function updateIndicator() {
+	 if (navigator.onLine) {
+		 $('#indicator').text('Conteúdo online disponível');
+		 $('.onlineonly').css('display','default');
+	 } 
+	 if (!(navigator.onLine)) {
+		 $('#indicator').text('Modo offline');
+		 $('.onlineonly').css('display','none');
+	 }
+}
+function checkcache() {
+	setTimeout(function(){
+		var appCache = window.applicationCache;
+		switch (appCache.status) {
+		  case appCache.UNCACHED:
+			$('#updatecache').css('display','none');
+			loadthebody('home');
+			break;
+		  case appCache.IDLE: // IDLE == 1
+			$('#updatecache').fadeOut('fast');
+			loadthebody('home');
+			break;
+		  case appCache.CHECKING: // CHECKING == 2
+			$('#loading_status').fadeIn(0);
+			$('#updatecache span').text('Aguarde. Iniciando aplicativo.');
+			checkcache();
+			break;
+		  case appCache.DOWNLOADING: // DOWNLOADING == 3
+			$('#loading_status').fadeIn(0);
+			$('#updatecache span').text('Aguarde. Estamos atualizando o aplicativo.');
+			checkcache();
+			break;
+		  case appCache.UPDATEREADY:  // UPDATEREADY == 4
+			$('#loading_status').fadeIn(0);
+			$('#updatecache').fadeOut('fast');
+			loadthebody('updateapp');
+			break;
+		  case appCache.OBSOLETE: // OBSOLETE == 5
+			$('#updatecache').fadeOut('fast');
+			loadthebody('home');
+			break;
+		  default:
+			$('#updatecache').fadeOut('fast');
+			loadthebody('home');
+			break;
+		};
+	},2000);
+}
+
+
+menuapp('2');
+buttonheader('0','','');
+checkcache();
+
+</script>
+</html>

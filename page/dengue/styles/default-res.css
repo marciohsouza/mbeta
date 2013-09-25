@@ -1,0 +1,183 @@
+
+/* CSS Document */
+
+/*
+Reference:
+
+Tiny devices
+Phones (Less than 768px)
+
+Small devices
+Tablets (More than 768px)
+
+Medium devices
+Desktops (More than 992px)
+
+Large devices
+Desktops (More than 1200px)
+
+
+@media (max-width: 480px)
+*/
+@media (min-width: 768px) {
+	#box-startworld #openworldicons a {
+		display: block;
+		float: left;
+		width: 335px;
+		height: 150px;
+		padding: 10px;
+		font-size: 18px;
+		text-decoration: none;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	#stage-world #asidebar-world {
+		width: 30%;
+		height: 100%;
+		float: left;
+		display: block;
+		background-color: rgba(242,242,242,1);
+		position:fixed;
+	}
+	#stage-world #content-world {
+		width: 70%;
+		height: 100%;
+		float: right;
+		display: block;
+		overflow-y:auto;
+	}
+	#stage-world #asidebar-world h1 {
+		color:rgba(51,51,51,1);
+		font-size:25px;
+		padding:0px 0px 15px 0px;
+	}
+	#stage-world #asidebar-world #asidebarcontent-world label {
+		opacity:0.8;
+	}
+	.offmobile {
+	}
+	#stage-world #content-world #questionarea-world {
+		width:90%;
+		margin:0 auto;
+	}
+	#stage-world #content-world h1 {
+		font-size:25px;
+		font-weight:200;
+		padding:90px 0px 15px 0px;
+		color:rgba(51,51,51,1);
+	}
+	#stage-world #content-world input[type="radio"] {
+		display:none; 
+	}
+	
+	#stage-world #content-world label {
+		display:block;
+		background-color:rgba(255,255,255,1);
+		font-size:25px;
+		border:rgba(242,242,242,1) 2px solid;
+		padding:10px 10px 10px 40px;
+		margin-bottom:10px;
+		margin-top:10px;
+		color:rgba(51,51,51,1);
+	}
+	#stage-world #asidebar-world #asidebarcontent-world:first-child {
+		padding:90px 20px 20px 20px;
+	}
+	
+	#stage-world #hipertext-world h1 {
+		padding:100px 0px 0px 0px;
+	}
+	#stage-world #content-world #hipertext-world #header-hipertextarea-world {
+		background-color:rgba(255,204,0,0.9);
+		color:rgba(0,0,0,1);
+		padding:60px 0px 0px 0px;
+		display:block;
+		top:0px;
+		left:0px;
+		right:0px;
+		width:100%;
+		position:absolute;
+	}
+	#stage-world #content-world #hipertext-world .hipertext-html, #stage-world #content-world #hipertext-world .hipertext-info {
+		padding: 120px 20px 20px 20px; 
+	}
+}
+
+@media (max-width: 767px) {
+	#box-startworld #openworldicons a {
+		display: block;
+		padding: 10px;
+		font-size: 18px;
+		text-decoration: none;
+		margin-bottom: 5px;
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	#stage-world #asidebar-world {
+		width:100%;
+		float: left;
+		display: block;
+		background-color: rgba(242,242,242,1);
+	}
+	#stage-world #content-world {
+		width:100%;
+		float: left;
+		display: block;
+	}
+	#stage-world #asidebar-world h1 {
+		color:rgba(51,51,51,1);
+		font-size:15px;
+		padding:0px 0px 5px 0px;
+	}
+	#stage-world #asidebar-world #asidebarcontent-world label {
+		display:none;
+	}
+	.offmobile {
+		display:none;
+	}
+	#stage-world #content-world #questionarea-world {
+		padding:15px;
+	}
+	#stage-world #content-world h1 {
+		font-size:15px;
+		font-weight:200;
+		color:rgba(51,51,51,1);
+	}
+	#stage-world #content-world input[type="radio"] {
+		display:none; 
+	}
+	
+	#stage-world #content-world label {
+		display:block;
+		background-color:rgba(255,255,255,1);
+		font-size:12px;
+		border:rgba(242,242,242,1) 2px solid;
+		padding:10px 10px 10px 40px;
+		margin-bottom:10px;
+		margin-top:10px;
+		color:rgba(51,51,51,1);
+	}
+	#stage-world #asidebar-world #asidebarcontent-world:first-child {
+		padding:70px 20px 20px 20px;
+	}
+	#stage-world #hipertext-world h1 {
+		padding:10px 0px 0px 0px;
+	}
+	#stage-world #content-world #hipertext-world #header-hipertextarea-world {
+		background-color:rgba(255,204,0,0.9);
+		color:rgba(0,0,0,1);
+		display:block;
+		bottom:0px;
+		left:0px;
+		right:0px;
+		width:100%;
+		position:fixed;
+	}
+	#stage-world #content-world #hipertext-world .hipertext-html, #stage-world #content-world #hipertext-world .hipertext-info {
+		padding: 20px 20px 60px 20px;
+	}
+}

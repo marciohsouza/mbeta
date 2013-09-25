@@ -1,0 +1,15 @@
+<h3><a name="anc00"></a>3.3 - Atendimento ao paciente com suspeita de dengue - Exame Físico</h3>
+<div id="lista">
+  <h4>Como realizar o exame físico em casos suspeitos de dengue?</h4>
+  <li>1. <a onClick="makehipertext('H0010');">Exame físico geral</a></li>
+  <li>2. <a onClick="makehipertext('H0011');">Prova do laço</a></li>
+  <li>3. <a onClick="makehipertext('H0012');">Aparelho cardiopulmonar</a></li>
+  <li>4. <a onClick="makehipertext('H0013');">Segmento abdominal</a></li>
+  <li>5. <a onClick="makehipertext('H0013');">Sistema Nervoso</a></li>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0008');" id="topicoanterior">Tópico anterior</a> <a onClick="makehipertext('H0010');" id="proximoanterior">Próximo tópico</a></p>
+</div>

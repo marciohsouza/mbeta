@@ -1,0 +1,26 @@
+<div id="options-box">
+<h1>Opções</h1>
+<h2>Desenvolvimento</h2>
+LocalStorage: <span id="localstorageavaliable"></span>
+<h2>UNA-SUS</h2>
+Nenhuma opção disponível
+<hr>
+<button class="btn btn-danger" onClick="clearsection();">Excluir informações salvas</button>
+<button class="btn btn-primary" onClick="appoptions('0');">Concluir</button>
+</div>
+<script>
+var theLocalStorage = localStorage.getItem('appdata');
+if (theLocalStorage == null) {
+	$('#localstorageavaliable').text('Não disponível');
+} else {
+	$('#localstorageavaliable').text('Disponível para uso');
+}
+
+
+function clearsection() {
+	alert('Você está limpando todas as informações que este web aplicativo salvou em seu dispositivo.');
+	localStorage.clear();
+	alert('Informações excluidas. Reiniciando App.');
+	window.location = window.location;
+}
+</script>

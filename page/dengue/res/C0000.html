@@ -1,0 +1,75 @@
+﻿<style>
+@media (min-width: 768px) {
+	#tutorial-tela {
+		padding:80px 0px 0px 0px;
+	}
+}
+@media (max-width: 767px) {
+	#tutorial-tela {
+		padding:10px 0px 0px 0px;
+	}
+}
+
+.tuto1 {
+	font-size:25px;
+	display:block;
+}
+.tuto2 {
+	font-size:20px;
+	display:block;
+	padding:10px 0px 0px 0px;
+}
+.tuto3, .tuto4 {
+	font-size:25px;
+	display:block;
+	color:#06C;
+}
+.tuto3 strong, .tuto4 strong {
+	font-weight:300;
+	color:#666;
+	display:block;
+	font-size:20px;
+}
+.pisca {
+	-webkit-box-shadow: 0px 0px 10px 3px #FF530D;
+	box-shadow: 0px 0px 10px 3px #FF530D;
+}
+.tuto4 div {
+	margin:10px 10px 0px 0px;
+	padding:0px;
+	border:none;
+	height:100px;
+	width:100px;
+	background-color:#FFF;
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.res-fluxograma {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbWFkYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjMwcHgiIGhlaWdodD0iMzBweCIgdmlld0JveD0iMCAwIDMwIDMwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMCAzMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Y2lyY2xlIGZpbGw9IiM0MTU1NjAiIGN4PSIxNSIgY3k9IjkuNjY3IiByPSIxLjMzMyIvPg0KCTxwb2x5Z29uIGZpbGw9IiM0MTU1NjAiIHBvaW50cz0iMTYuMzMzLDEyLjc3OCAxNi4zMzMsMTIuMjczIDE2LjMzMywxMS44ODkgMTMuNjY3LDExLjg4OSAxMy42NjcsMTIuNzc4IDE0LjU1NiwxMi43NzggDQoJCTE0LjU1NiwxOS44ODggMTMuNjY3LDE5Ljg4OCAxMy42NjcsMjAuNzc3IDE3LjIyMiwyMC43NzcgMTcuMjIyLDE5Ljg4OCAxNi4zMzMsMTkuODg4IAkiLz4NCgk8cGF0aCBmaWxsPSIjNDE1NTYwIiBkPSJNMTUsMy44OUM4Ljg2NCwzLjg5LDMuODksOC44NjQsMy44OSwxNWMwLDYuMTM2LDQuOTc0LDExLjExLDExLjExLDExLjExUzI2LjExLDIxLjEzNiwyNi4xMSwxNQ0KCQlDMjYuMTEsOC44NjQsMjEuMTM2LDMuODksMTUsMy44OXogTTE1LDI1LjIyMUM5LjM2MywyNS4yMjEsNC43NzksMjAuNjM2LDQuNzc5LDE1QzQuNzc5LDkuMzY0LDkuMzYzLDQuNzc5LDE1LDQuNzc5DQoJCVMyNS4yMjEsOS4zNjQsMjUuMjIxLDE1QzI1LjIyMSwyMC42MzYsMjAuNjM3LDI1LjIyMSwxNSwyNS4yMjF6Ii8+DQo8L2c+DQo8L3N2Zz4NCg==);
+}
+.res-protocolo {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhbWFkYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjMwcHgiIGhlaWdodD0iMzBweCIgdmlld0JveD0iMCAwIDMwIDMwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMCAzMCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSIjNDE1NTYwIiBkPSJNMjQuNjksNC4zODVoLTguMzA1Yy0wLjU1NSwwLTEuMDQ3LDAuMjUtMS4zODUsMC42MzljLTAuMzM4LTAuMzg4LTAuODMtMC42MzktMS4zODUtMC42MzlINS4zMQ0KCWMtMS4wMiwwLTEuODQ1LDAuODI3LTEuODQ1LDEuODQ1djE1LjY5NGMwLDEuMDE4LDAuODI1LDEuODQ1LDEuODQ1LDEuODQ1aDguMzA1YzAuMDA5LDAsMC4wMTgtMC4wMDQsMC4wMjctMC4wMDQNCgljMC40OSwwLjAxMywwLjg4NywwLjQwOCwwLjg5OCwwLjg5OHYwLjk1MWgwLjkyM3YtMC41MTJoMC4wMDl2LTAuNDE2YzAtMC40OTksMC4zOTgtMC45MDUsMC44OTQtMC45Mg0KCWMwLjAwNywwLDAuMDEzLDAuMDAzLDAuMDIsMC4wMDNoOC4zMDVjMS4wMiwwLDEuODQ1LTAuODI3LDEuODQ1LTEuODQ1VjYuMjNDMjYuNTM1LDUuMjEyLDI1LjcxLDQuMzg1LDI0LjY5LDQuMzg1eiBNNC4zODgsMjEuOTI0DQoJVjYuMjNjMC0wLjUwOCwwLjQxNC0wLjkyMywwLjkyMy0wLjkyM2g4LjMwNWMwLjUwOCwwLDAuOTIzLDAuNDE1LDAuOTIzLDAuOTIzdjE1LjY5NGMwLDAuNTA4LTAuNDE1LDAuOTIzLTAuOTIzLDAuOTIzSDUuMzENCglDNC44MDEsMjIuODQ3LDQuMzg4LDIyLjQzMiw0LjM4OCwyMS45MjR6IE0yNS42MTIsMjEuOTI0YzAsMC41MDgtMC40MTQsMC45MjMtMC45MjMsMC45MjNoLTguMzA1Yy0wLjUwOCwwLTAuOTIzLTAuNDE1LTAuOTIzLTAuOTIzDQoJdi0wLjM3OFY2LjIzYzAtMC41MDgsMC40MTUtMC45MjMsMC45MjMtMC45MjNoOC4zMDVjMC41MDksMCwwLjkyMywwLjQxNSwwLjkyMywwLjkyM1YyMS45MjR6Ii8+DQo8L3N2Zz4NCg==);
+}
+</style>
+<script>
+$('.tuto1').fadeOut(0);
+$('.tuto2').fadeOut(0);
+$('.tuto3').fadeOut(0);
+$('.tuto4').fadeOut(0);
+</script>
+<div id="tutorial-tela">
+<span class="tuto1">Bem-vindo ao curso de Atualização do Manejo Clínico da Dengue para dispositivos móveis.</span>
+<span class="tuto2">Para navegar você precisa saber de algumas funções básicas.</span>
+<span class="tuto3">Saiba qual o seu andamento no curso.<strong>Abaixo do nome do curso, uma barra mostrará seu progresso até o final do caso clínico.</strong></span>
+<span class="tuto4">Utilize os recursos do protocolo.<strong>Na barra de navegação, utilize os botões "Protocolo da Dengue" e "Fluxograma da Dengue" para ter acesso à versão do Protocolo do Manejo Clínico da Dengue digital.</strong><div class="res-protocolo"></div> <div class="res-fluxograma"></div></span>
+</div>
+<script>
+$('.tuto1').delay(1000).fadeIn(1000);
+$('.tuto2').delay(3000).fadeIn(1000);
+$('.tuto2').delay(10000).fadeOut(500);
+$('.tuto1').delay(12000).fadeOut(500);
+$('.tuto3').delay(15000).fadeIn(1000);
+$('.tuto3').delay(19000).fadeOut(1000);
+$('.tuto4').delay(20000).fadeIn(1000);
+</script>

@@ -1,0 +1,29 @@
+<h3><a name="anc00"></a>6.1.1 - Estadiamento clínico e conduta - Caracterização</h3>
+<div id="tabelatexto">
+  <h4>Como caracterizar os pacientes do Grupo A?</h4>
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr bgcolor="#75d4f7">
+      <td>Grupo A</td>
+    </tr>
+    <tr>
+      <td>Febre por até sete dias, pelo menos dois sinais e sintomas inespecíficos (cefaleia, prostração, dor retro-orbitária, exantema, mialgias e artralgias), e história epidemiológica compatível. Nos lactentes, irritabilidade e choro persistente podem ser  expressão de cefaleia e algias. </td>
+    </tr>
+    <tr>
+      <td>Ausência de <a onClick="makehipertext('H0002','anc07');">sinais de alarme</a></td>
+    </tr>
+    <tr>
+      <td><a onClick="makehipertext('H0011');">Prova do laço</a> negativa e ausência de manifestações hemorrágicas espontâneas</td>
+    </tr>
+    <tr>
+      <td>Sem comorbidades, grupo de risco ou condições clínicas especiais.</td>
+    </tr>
+  </table>
+  <p>Como realizar a <a onClick="makehipertext('H0019');">conduta diagnóstica</a> do Grupo A? <br />
+    Como realizar a <a onClick="makehipertext('H0020');">conduta terapêutica</a> do Grupo A? </p>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0017');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0019');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

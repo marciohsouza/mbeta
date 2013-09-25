@@ -1,0 +1,98 @@
+<h3><a name="anc00"></a>6.3.2.1 - Estadiamento clínico e conduta - Conduta diagnóstica</h3>
+<div id="personalizado">
+  <h4>Como realizar a conduta diagnóstica do Grupo C?</h4>
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+      <td colspan="4" bgcolor="#ffdc52"><strong>GRUPO C</strong></td>
+    </tr>
+    <tr>
+      <td rowspan="3" bgcolor="#f7e69c">Pacientes devem ser atendidos em qualquer nível de complexidade, sendo obrigatória a hidratação venosa rápida, inclusive durante eventual transferência para unidade de referência. </td>
+      <td colspan="3" bgcolor="#f7e69c">Conduta diagnóstica</td>
+    </tr>
+    <tr>
+      <td bgcolor="#ffdc52">Tipos de exames</td>
+      <td bgcolor="#CCCCCC">Exames específicos</td>
+      <td bgcolor="#CCCCCC">Exames inespecíficos</td>
+    </tr>
+    <tr>
+      <td bgcolor="#ffdc52" align="left" valign="top"><strong>Exames</strong></td>
+      <td align="left" valign="top"><p>Isolamento viral/sorologia: <br />
+          Obrigatório </p></td>
+      <td align="left" valign="top"><p>Obrigatórios:<br />
+          Hemograma completo.<br />
+          Dosagem de albumina sérica e transaminases.<br />
+          Exames de imagem recomendados: radiografia de tórax (PA, perfil e incidência de Laurell) e ultrassonografia de abdome. O exame ultrassonográfico é mais sensível para diagnosticar derrames cavitários, quando comparados à radiografia. </p></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="left" valign="top" bgcolor="#FFFFFF">Outros exames conforme necessidade: glicose, ureia, creatinina, eletrólitos, gasometria, TPAE, ecocardiograma.
+        Atenção: Na primeira coleta de sangue para exames inespecíficos, solicitar realização dos exames específicos, atentando para a necessidade de condicionamento adequado: -20ºC para realização da sorologia e -70ºC para realização do isolamento viral. </td>
+    </tr>
+  </table>
+  <p>Como realizar a <a href="#anc02">conduta terapêutica do Grupo C</a>?</p>
+</div>
+<p></p>
+<p></p>
+<h3><a name="anc02" id="anc02"></a>6.3.2.1 - Estadiamento clínico e conduta - Conduta diagnóstica (conduta terapêutica)</h3>
+<div id="div">
+  <h4>Como realizar a conduta terapêutica do Grupo C? </h4>
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+      <td rowspan="3"></td>
+      <td rowspan="16"></td>
+      <td bgcolor="#f7e69c">Acompanhamento:  Leito de internação por um período mínimo de 48h</td>
+    </tr>
+    <tr>
+      <td height="10"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f7e69c"><a href="#anc03">Reposição volêmica</a></td>
+    </tr>
+    <tr>
+      <td rowspan="5" bgcolor="#ffdc52"><strong>GRUPO C<br />
+        Conduta terapêutica</strong></td>
+      <td height="10"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f7e69c"><a onClick="makehipertext('H0020','anc02');">Sintomáticos</a></td>
+    </tr>
+    <tr>
+      <td height="10"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f7e69c">Notificar imediatamente o caso</td>
+    </tr>
+    <tr>
+      <td height="10"></td>
+    </tr>
+    <tr>
+      <td rowspan="5"></td>
+      <td bgcolor="#f7e69c">Retorno após a alta. Após a alta, o retorno para reavaliação clínica e laboratorial segue orientação do Grupo B. Preencher cartão de acompanhamento.</td>
+    </tr>
+    <tr>
+      <td height="10"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f7e69c"><a onClick="makehipertext('H0028');">Informações importantes sobre pacientes do grupos C e D.</a></td>
+    </tr>
+  </table>
+  <p>Como proceder em <a onClick="makehipertext('H0043');">situações especiais</a>?</p>
+</div>
+<p></p>
+<p></p>
+<h3><a name="anc03" id="anc03"></a>6.3.2.1 - Estadiamento clínico e conduta - Conduta diagnóstica</h3>
+<div id="tabela">
+  <table width="44%" border="0" align="center" cellpadding="5" cellspacing="0">
+    <tr>
+      <td bgcolor="#ffdc52"><h4>Como realizar a reposição volêmica em pacientes do Grupo C?</h4></td>
+    </tr>
+    <tr>
+      <td><img src="imghiper/diagH0061_1.png" /></td>
+    </tr>
+  </table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0024');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0026');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

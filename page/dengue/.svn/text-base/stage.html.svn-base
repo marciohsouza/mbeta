@@ -1,0 +1,302 @@
+﻿<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="page/dengue/styles/default.css" media="all">
+<link rel="stylesheet" href="page/dengue/styles/default-res.css" media="all">
+</head>
+<body>
+<!-- introdução !-->
+<div id="box-startworld" class="scroller">
+  <div id="introductiontocontent">
+    <h1 class="coursenam-welcome">Carregando...</h1>
+    <p class="info-welcome"></p>
+  </div>
+  <div id="openworldicons"></div>
+</div>
+
+<!-- curso !-->
+<div id="stage-world" class="scroller">
+  <div id="asidebar-world">
+    <div id="asidebarcontent-world">
+      <h1 class="coursenam">Carregando...</h1>
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" id="progressbarcode" style="width: 0%;"></div>
+      </div>
+    </div>
+    <div id="asidebarcontent-world" class="activeaside offmobile"> <span class="nomedocaso"></span><br />
+      <span class="decisaodocaso"></span> </div>
+    <div id="asidebarcontentdivider-world" class="offmobile"></div>
+    <div id="asidebarcontent-world" class="offmobile">
+      <label>Recursos Complementares</label>
+      <div id="btnres" class="res-protocolo onlineonly" onClick="openres(1);"> Protocolo da Dengue</div>
+      <!--div id="btnres" class="res-ficha" onClick="openres(2);"> Ficha do Paciente</div!-->
+      <div id="btnres" class="res-fluxograma onlineonly" onClick="openres(3);"> Fluxograma da Dengue</div>
+    </div>
+  </div>
+  <div id="content-world">
+    <div id="questionarea-world"> <span class="a-local-world">
+      <h1 class="pergunta">Carregando...</h1>
+      <input type="radio" id="radio1" name="radios">
+      <label for="radio1" class="respostaa" onClick=""></label>
+      <input type="radio" id="radio2" name="radios">
+      <label for="radio2" class="respostab" onClick=""></label>
+      <input type="radio" id="radio3" name="radios">
+      <label for="radio3" class="respostac" onClick=""></label>
+      <div id="buttoncheck-world">
+        <button class="confirmawanser" onClick="">Confirmar resposta</button>
+      </div>
+      </span> <span class="b-local-world"> <span class="content-qax"></span> </span> </div>
+    <div id="hipertext-world">
+      <div id="hipertextarea-world">
+        <div id="header-hipertextarea-world">
+          <button class="hipertext-info-world onlineonly" onClick="makehipertext('H0000');">Protocolo da Dengue</button>
+          <button class="nextquestion-info-world" onClick="hipertextback();">Continuar</button>
+        </div>
+        <div class="hipertext-html"> </div>
+        <div class="hipertext-info"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="fluxograma-box-center">
+    <div id="fluxograma-box">
+        <div id="fluxograma-header"><div>Classificação de Risco e Manejo do Paciente</div><button onclick="fluxograma('close');">Fechar fluxograma</button></div>
+        <div id="fluxograma-codigo"><!-- FLUXOGRAMA !--></div>
+    </div>
+</div>
+
+</body>
+<script>
+function start() {
+updateIndicator();
+$('#openworldicons').html('');
+
+$(document).ready(function(){
+		$.ajax({
+				type: "GET",
+				url: "page/dengue/data.xml",
+				dataType: "xml",
+				success: function(xml) {
+					$(xml).find('courseinfo').each(function(index, element) {
+						var name = $(this).find('course').text();
+						$('.coursenam-welcome').text(name);
+						var info = $(this).find('info').text();
+						$('.info-welcome').text(info);
+					});
+					//$(xml).find('case').each(function(){
+						  $(xml).find('informations').each(function(index, element) {
+							  var avaliable = $(this).find('name').text();
+							  var avaliableid = $(this).find('id').text();
+							  var color1 = $(this).find('coursecolor').text();
+							  var color2 = $(this).find('fontcolor').text();
+							  var image = $(this).find('image').text();
+							  var totalquestions = $(this).find('totalquestions').text();
+							  var percentage = localStorage.getItem('dengue-' + avaliableid + '-question');
+							  var theLocalStorage = localStorage.getItem('dengue-' + avaliableid +'');
+							  if (theLocalStorage == null) {
+									localStorage.setItem('dengue-' + avaliableid +'', 'notinitialized');
+									var locatedtext = "Você ainda não iniciou esta atividade"; var locatedtext2 = "<br>Toque para iniciar";
+							  } else {
+									if (theLocalStorage == 'notinitialized') { var locatedtext = "Você ainda não iniciou esta atividade"; var locatedtext2 = "<br>Toque para iniciar"; }
+									if (theLocalStorage == 'initialized') { var locatedtext = "Continue este caso clínico";
+																			   var totalpercentage = Math.floor((percentage / totalquestions) * 100) ;
+																			   var locatedtext2 = "<br>Você já concluiu " + totalpercentage + "% deste caso";
+																			  }
+									if (theLocalStorage == 'concluded') { var locatedtext = "Caso clínico concluído!"; var locatedtext2 = "<br>Toque para iniciar novamente"; }
+							  }		
+							  if (percentage == null)	{
+								  var questiontostart = '1';
+							  } else {
+								  if (percentage == totalquestions) {
+								  	  var questiontostart = '1';
+								  } else {
+									  var questiontostart = percentage;
+								  }
+							  }
+							  
+							  var texttohtml = '<a href="#" id="" class="color-box" style="background-color:#' + color1 + ';color:#' + color2 + '; background-image:url(page/dengue/img/' + image + ');" onClick="loadQuestion(' + avaliableid + ',' + questiontostart + '); setstorage(\'dengue-' + avaliableid + '\',\'initialized\');">' + avaliable + '<span>' + locatedtext + ' ' + locatedtext2 + '</span></a>';
+							  $('#openworldicons').append(texttohtml);
+                  });
+				}
+			});
+		});
+}
+
+
+function welcomescreen(activate) {
+
+	if (activate == 0) {
+		start()
+		$('#box-startworld').css('display','block');
+		$('#stage-world').css('display','none');
+		buttonheader('2','Cursos','home');
+	}
+	if (activate == 1) {
+		$('#box-startworld').css('display','none');
+		$('#stage-world').css('display','block');
+		buttonheader('1','Dengue','welcomescreen(0);')
+	}
+}
+
+
+function loadQuestion(linktocasex, questionidx) {
+	setstorage('dengue-' + linktocasex + '-question','' + questionidx + '');
+	welcomescreen(1)
+	var linktocasex = linktocasex;
+	$(document).ready(function(){
+		$.ajax({
+				type: "GET",
+				url: "page/dengue/data.xml",
+				dataType: "xml",
+				success: function(xml) {
+					var coursename = $(xml).find('course').text();
+					$('.coursenam').text(coursename);
+					
+					$(xml).find('case[linktocase="' + linktocasex + '"]').each(function(){
+						$(xml).find('informations[linktocase="' + linktocasex + '"]').each(function(index, element) {
+                             var name = $(this).find('name').text();
+								var percentage = $(this).find('totalquestions').text();
+								var totalpercentage = Math.floor((questionidx / percentage) * 100) ;
+							
+								$('.nomedocaso').text(name);
+								$('#progressbarcode').css('width','' + totalpercentage + '%');
+								
+								if (totalpercentage == 100) {
+									setstorage('dengue-' + linktocasex + '','concluded');
+								}
+                        });
+						$(xml).find('question[questionid="' + questionidx + '"][linktocase="' + linktocasex + '"]').each(function(){
+							var qtype = $(this).find("qtype").text();
+							
+							var pergunta = $(this).find("pergunta").text();
+							var respostaa = $(this).find("respostaa").text();
+							var respostab = $(this).find("respostab").text();
+							var respostac = $(this).find("respostac").text();
+							var info = $(this).find("info").text();
+							var correta = $(this).find("correta").text();
+							var idq = $(this).find("idq").text();
+							var lnkcase = linktocasex;
+							var content = $(this).find("content").text();
+							
+							if (qtype == "a") {	
+								if (correta == "a") {
+									var valueright = 1;
+								}
+								if (correta == "b") {
+									var valueright = 2;
+								}
+								if (correta == "c") {
+									var valueright = 3;
+								}
+								
+								$('.pergunta').text(pergunta);
+								
+								$('.respostaa').text(respostaa);
+								$('.respostaa').attr('onClick',"$('.confirmawanser').attr('onClick','checkawanser(1," + valueright + "," + idq + "," + lnkcase + ");');");
+								
+								$('.respostab').text(respostab);
+								$('.respostab').attr('onClick',"$('.confirmawanser').attr('onClick','checkawanser(2," + valueright + "," + idq + "," + lnkcase + ");');");
+								
+								$('.respostac').text(respostac);
+								$('.respostac').attr('onClick',"$('.confirmawanser').attr('onClick','checkawanser(3," + valueright + "," + idq + "," + lnkcase + ");');");
+								
+								$('.decisaodocaso').text(info);
+								$('.b-local-world').css('display','none');
+								$('.a-local-world').css('display','block');	
+							}
+							
+							if (qtype == "b") {
+								$('.decisaodocaso').text(info);
+								$('.content-qax').load('page/dengue/res/' + content + '.html');	
+								$('.a-local-world').css('display','none');
+								$('.b-local-world').css('display','block');
+								//$('.btnconfirm').attr('onClick','checkawanser(0,0,' + idq + ',' + lnkcase + ');');						
+							}
+							
+						});
+					});
+				}
+			});
+		});
+}
+
+
+function makehipertext(code) {
+	$('.hipertext-html').css('display','block');
+	$('.hipertext-info').css('display','none');
+	$('.hipertext-html').load("page/dengue/res/" + code + ".html");
+}
+
+
+function checkawanser(question,valueright,caseid,lnkcase) {
+	
+	if (question == valueright) {
+		$("input:radio").removeAttr("checked");
+		var nextquestion = caseid + 1;
+		loadQuestion(lnkcase,nextquestion);
+		$('.hipertext-info').html('<div class="rightquestion-world"></div><h3>Resposta correta!</h3>');
+		$('.nextquestion-info-world').text("Continuar");
+		$('.hipertext-info').css('display','block');
+		$('.hipertext-html').css('display','none');
+	} else {
+		$('.hipertext-info').html('<div class="wrongquestion-world"></div><h3>Resposta incorreta.</h3>');
+		$('.nextquestion-info-world').text("Tentar novamente");
+		$('.hipertext-info').css('display','block');
+		$('.hipertext-html').css('display','none');
+	}
+	
+	if (question == 0) {
+		$('#questionarea-world').css('display','block');
+		$('#hipertext-world').css('display','none');
+	}
+	if (question == 1) {
+		$('#questionarea-world').css('display','none');
+		$('#hipertext-world').css('display','block');
+	}
+	if (question == 2) {
+		$('#questionarea-world').css('display','none');
+		$('#hipertext-world').css('display','block');
+	}
+	if (question == 3) {
+		$('#questionarea-world').css('display','none');
+		$('#hipertext-world').css('display','block');
+	}
+	
+	$(this).scrollTop(0);
+
+}
+function hipertextback() {
+	$('#questionarea-world').css('display','block');
+	$('#hipertext-world').css('display','none');
+}
+function fluxograma(opt) {
+	if (opt == 'open') {
+		$('#fluxograma-box-center').css('height','95%');
+		$('#fluxograma-box-center').css('opacity','1');
+		$('.scroller').css('overflow','hidden');
+		$('#fluxograma-codigo').load("page/dengue/res/fluxograma.html");
+	}
+	if (opt == 'close') {
+		$('#fluxograma-box-center').css('height','0%');
+		$('#fluxograma-box-center').css('opacity','0');
+		$('.scroller').css('overflow','auto');
+	}
+}
+function openres(opt) {
+	if (opt == 1) {
+		makehipertext('H0000');
+		$('#questionarea-world').css('display','none');
+		$('#hipertext-world').css('display','block');
+		$('.nextquestion-info-world').text("Voltar");
+	}
+	if (opt == 2) {
+		
+	}
+	if (opt == 3) {
+		fluxograma('open');
+	}
+
+}
+welcomescreen(0);
+</script>
+</html>

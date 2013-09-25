@@ -1,0 +1,32 @@
+<h3><a name="anc00"></a>6.11 - Estadiamento clínico e conduta - Indicações para internação hospitalar</h3>
+<div id="">
+  <h4>Quais as indicações para internação hospitalar em casos de dengue?</h4>
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr bgcolor="#F4F4F4">
+      <td>Presença de Sinais de Alarme</td>
+    </tr>
+    <tr bgcolor="#E4E4E4">
+      <td>Recusa na ingestão de alimentos e líquidos</td>
+    </tr>
+    <tr bgcolor="#F4F4F4">
+      <td>Comprometi-mento respiratório: dor torácica, dificuldade respiratória, diminuição do murmúrio vesicular ou outros sinais de gravidade</td>
+    </tr>
+    <tr bgcolor="#E4E4E4">
+      <td>Plaquetas &lt;20.000/mm3, independentemente de manifestações hemorrágicas</td>
+    </tr>
+    <tr bgcolor="#F4F4F4">
+      <td>Impossibilidade de seguimento ou retorno à unidade de saúde e risco social </td>
+    </tr>
+    <tr bgcolor="#E4E4E4">
+      <td>Co-morbidades descompensadas como Diabetes mellitus, hipertensão arterial, insuficiência cardíaca, uso de  dicumarínicos, crise asmática etc. </td>
+    </tr>
+  </table>
+  <p>Estas são as indicações para internação hospitalar, ou outras situações a critério clínico. </p>
+  <p><a onClick="makehipertext('H0035');">Quais os critérios de alta hospitalar?</a></p>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0033');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0035');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

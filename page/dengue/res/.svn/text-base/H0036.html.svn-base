@@ -1,0 +1,116 @@
+<h3><a name="anc01" id="anc01"></a>7 - Confirmação laboratorial</h3>
+<div id="">
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+      <td colspan="2" bgcolor="#999"><stong>
+        QUAIS AS FORMAS DE CONFIRMAÇÃO LABORATORIAL DA DENGUE?</strong></td>
+      <td width="27%"></td>
+    </tr>
+    <tr>
+      <td height="20" colspan="2"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td width="12%"></td>
+      <td colspan="2" bgcolor="#ddd"><a href="#anc02">Sorologia</a></td>
+    </tr>
+    <tr>
+      <td height="10" colspan="2"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td width="12%"></td>
+      <td colspan="2" bgcolor="#ddd"><a href="#anc04">Detecção de vírus ou antígenos virais</a></td>
+    </tr>
+  </table>
+</div>
+<!-- Texto do Pop-up !-->
+<p></p>
+<p></p>
+<h3><a name="anc02" id="anc02"></a>7 - Confirmação laboratorial</h3>
+<div id="div">
+<table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+  <tr>
+    <td colspan="2" bgcolor="#999"><stong>
+      COMO CONFIRMAR A DENGUE ATRAVÉS DA SOROLOGIA?</strong></td>
+    <td width="27%"></td>
+  </tr>
+  <tr>
+    <td height="20" colspan="2"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td width="12%"></td>
+    <td colspan="2" bgcolor="#ddd"><strong>Método Elisa IgM</strong><br />
+      Baseado em detecção de anticorpo, costuma positivar após o 6º dia da doença (<a href="#anc03">ver figura</a>).</td>
+  </tr>
+  <tr>
+    <td height="10" colspan="2"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td width="12%"></td>
+    <td colspan="2" bgcolor="#ddd"><strong>Método Elisa IgG</strong><br />
+      Baseado em detecção de anticorpo, esse método costuma positivar a partir do 9º dia de doença, na infecção primária, e já estar detectável desde o 1º dia de doença na infecção secundária (<a href="#anc05">ver figura</a>).</td>
+  </tr>
+  <tr>
+    <td height="10" colspan="2"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td width="12%"></td>
+    <td colspan="2" bgcolor="#ddd"><strong>Método Elisa IgM e IgG</strong><br />
+      Teste rápido, baseado na detecção qualitativa e diferencial de anticorpos IgM e IgG, permite diagnóstico ou descarte, em curto espaço de tempo.</td>
+  </tr>
+  <tr>
+    <td height="40" colspan="2"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="3">Devido as diferenças nos valores de sensibilidade e de especificidade encontrados, recomenda-se a realização de exame laboratorial utilizando os laboratórios de referência.</td>
+  </tr>
+</table>
+<!-- Texto do Pop-up !-->
+<p></p>
+<p></p>
+<h3><a name="anc03" id="anc03"></a>7 - Confirmação laboratorial</h3>
+<div id="">
+  <h4>Qual a resposta típica de antígeno-anticorpo na infecção por Dengue?</h4>
+  <img src="imghiper/diagrama0014.png" /> </div>
+<!-- Texto do Pop-up !-->
+<p></p>
+<p></p>
+<h3><a name="anc04" id="anc04"></a>7 - Confirmação laboratorial</h3>
+<div id="tabela">
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+      <td colspan="2" bgcolor="#999"><stong>
+        COMO CONFIRMAR A DENGUE ATRAVÉS DE DETECÇÃO DE VÍRUS OU ANTÍGENOS VIRAIS?</strong></td>
+      <td width="27%"></td>
+    </tr>
+    <tr>
+      <td height="20" colspan="2"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td width="12%"></td>
+      <td colspan="2" bgcolor="#ddd"><strong>Isolamento viral, RT-PCR, Imunohistoquímica</strong><br />
+        Métodos disponíveis geralmente nos laboratórios de referência estaduais e nacionais. Seu uso deve sempre ser discutido com os integrantes das equipes de Vigilância Epidemiológica. Recomenda-se a realização nos primeiros três dias da doença, podendo ser realizado até o quinto dia.</td>
+    </tr>
+    <tr>
+      <td height="10" colspan="2"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td width="12%"></td>
+      <td colspan="2" bgcolor="#ddd"><strong>NS1</strong><br />
+        Nova ferramenta diagnóstica. É um teste qualitativo, usado na detecção da antigenemia NS1 por Elisa. Auxilia no diagnóstico sorológico da doença em amostras colhidas principalmente até o 3º dia do início dos sintomas (idealmente a amostra deve ser colhida no 1º dia dos sintomas, permitindo a liberação do resultado antes da defervescência da febre). O desempenho deste exame é equivalente ao do RT-PCR, porém não permite a identificação do sorotipo. O Ministério da Saúde disponibiliza kits para o uso em amostras de unidades-sentinela de monitoramento do vírus da dengue. O uso da proteína NS1 tem uma alta especificidade, mas moderada sensibilidade, que é mais baixa nas infecções secundárias. O teste NS1 negativo não exclui a possibilidade da doença.</td>
+    </tr>
+  </table>
+</div>
+<p></p>
+<p></p>
+<p></p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0035');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0037');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

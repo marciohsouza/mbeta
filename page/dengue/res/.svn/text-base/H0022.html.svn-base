@@ -1,0 +1,32 @@
+<h3><a name="anc00"></a>6.2.2.1 - Estadiamento clínico e conduta - Conduta diagnóstica</h3>
+<h4>Como realizar a conduta diagnóstica do Grupo B?</h4>
+<div id="tabela">
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+      <td colspan="3" align="left" valign="top" bgcolor="#C6E6A4"><strong>GRUPO B</strong></td>
+    </tr>
+    <tr>
+      <td colspan="3" align="left" valign="top" bgcolor="#d9e6c6">Conduta diagnóstica</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" bgcolor="#C6E6A4"><strong>Tipos de exames</strong></td>
+      <td align="left" valign="top">Exames específicos</td>
+      <td align="left" valign="top">Exames inespecíficos</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" bgcolor="#C6E6A4"><strong>Exames</strong></td>
+      <td align="left" valign="top" bgcolor="#d9e6c6"><p>Isolamento viral/sorologia <br />
+          <br />
+          Obrigatório </p></td>
+      <td align="left" valign="top" bgcolor="#d9e6c6"><p>Hemograma completo<br />
+          Obrigatório para todos os pacientes, devendo a coleta ser feita no momento do atendimento, e a liberação do resultado em até duas horas (máximo 4 horas); Avaliar a hemoconcentração </p></td>
+    </tr>
+  </table>
+</div>
+<p>Como realizar a <a onClick="makehipertext('H0023');">conduta terapêutica</a> do Grupo A? </p>
+</div>
+<p></p>
+<p></p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0021');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0023');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

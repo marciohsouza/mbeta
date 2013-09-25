@@ -1,0 +1,38 @@
+<h3><a name="anc00"></a>9 - Classificação de caso</h3>
+<div id="">
+  <table width="70%" border="0" align="center" cellpadding="10" cellspacing="0">
+    <tr>
+      <td colspan="3" bgcolor="#eee"><stong>
+        COMO PADRONIZAR A CLASSIFICAÇÃO DOS CASOS?</strong><br />
+        <p>A padronização da classificação de casos permite a comparação da situação epidemiológica entre diferentes regiões.</p>
+        <p><strong>Não há necessidade de realização desta classificação no atendimento inicial. </strong>A classificação é retrospectiva 
+          e, para sua realização, devem ser reunidas todas as informações clínicas, laboratoriais e epidemiológicas do paciente, conforme descrito a seguir:</p></td>
+    </tr>
+    <tr>
+      <td height="30" colspan="3" bgcolor="#eee"></td>
+    </tr>
+    <tr>
+      <td rowspan="6" bgcolor="#eee"></td>
+      <td bgcolor="#ddd"><a onClick="makehipertext('H0039');"> Caso confirmado de dengue clássica </a></td>
+      <td rowspan="6" bgcolor="#eee"></td>
+    </tr>
+    <tr>
+      <td height="15" bgcolor="#eee"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#ddd"><a onClick="makehipertext('H0040');"> Caso confirmado de febre hemorrágica da dengue (FHD) </a></td>
+    </tr>
+    <tr>
+      <td height="15" bgcolor="#eee"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#ddd"><a onClick="makehipertext('H0041');">Dengue com complicações </a></td>
+    </tr>
+    <tr>
+      <td height="30" bgcolor="#eee"></td>
+    </tr>
+  </table>
+</div>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0037');" id="topicoanterior">Tópico Anterior</a> <a onClick="makehipertext('H0039');" id="proximoanterior">Próximo Tópico</a></p>
+</div>

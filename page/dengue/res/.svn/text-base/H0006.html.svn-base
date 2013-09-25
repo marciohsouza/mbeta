@@ -1,0 +1,90 @@
+<h3><a name="anc00"></a>3.2 - Atendimento ao paciente com suspeita de dengue - Anamnese</h3>
+<h4>Como realizar a anamnese em casos suspeitos de dengue?</h4>
+<div id="texto">
+  <h4>Os seguintes itens devem constar em prontuário:</h4>
+  <p>1. <a href="#anc01">História da doença atual</a></p>
+  <p>2. <a onClick="makehipertext('H0007');">Epidemiologia</a></p>
+  <p>3. <a onClick="makehipertext('H0008');">História patológica pregressa</a></p>
+  <p></p>
+  <p></p>
+</div>
+<h3><a name="anc01"></a>3.2.1 - Atendimento ao paciente com suspeita de dengue - História da doença atual</h3>
+<div id="lista"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="653.001px" height="387.001px" viewBox="0 0 653.001 387.001" style="enable-background:new 0 0 653.001 387.001;"
+	 xml:space="preserve">
+  <style type="text/css">
+<![CDATA[
+]]>
+</style>
+  <g id="Camada_2">
+    <rect x="17.204" y="16.033" style="fill:#5C5B5F;" width="8.237" height="274.306"/>
+    <path style="fill:#FFFFFF;stroke:#D8DADE;stroke-miterlimit:10;" d="M538.001,93.599c0,0.524-1.312,0.949-2.932,0.949H61.974
+		c-1.622,0-2.932-0.424-2.932-0.949V68.268c0-0.524,1.311-0.949,2.932-0.949h473.096c1.62,0,2.932,0.425,2.932,0.949V93.599z"/>
+    <g>
+      <path style="fill:#333333;" d="M56.876,81.903l-4.584-4.49h-1.72c-13.876,0-25.122-11.246-25.122-25.122V28.165h-8.247v25.979
+			c0,17.344,14.06,31.403,31.402,31.403h4.549L56.876,81.903z"/>
+    </g>
+    <g>
+      <path style="fill:#333333;" d="M56.876,143.903l-4.584-4.49h-1.72c-13.876,0-25.122-11.246-25.122-25.122V90.165h-8.247v25.979
+			c0,17.344,14.06,31.403,31.402,31.403h4.549L56.876,143.903z"/>
+    </g>
+    <g>
+      <path style="fill:#333333;" d="M56.876,203.903l-4.584-4.49h-1.72c-13.876,0-25.122-11.246-25.122-25.122v-24.126h-8.247v25.979
+			c0,17.344,14.06,31.403,31.402,31.403h4.549L56.876,203.903z"/>
+    </g>
+    <g>
+      <path style="fill:#333333;" d="M56.876,327.903l-4.584-4.49h-1.72c-13.876,0-25.122-11.246-25.122-25.122v-24.126h-8.247v25.979
+			c0,17.344,14.06,31.403,31.402,31.403h4.549L56.876,327.903z"/>
+    </g>
+    <path style="fill:#D8DADE;" d="M538.001,36.641c0,0.565-1.447,1.022-3.235,1.022H12.794c-1.786,0-3.234-0.457-3.234-1.022V9.358
+		c0-0.564,1.448-1.022,3.234-1.022h521.972c1.788,0,3.235,0.458,3.235,1.022V36.641z"/>
+  </g>
+  <g id="Camada_1">
+    <rect x="65.464" y="75.161" style="fill:none;" width="464.404" height="10.84"/>
+    <text transform="matrix(1 0 0 1 65.4644 85.4443)" style="fill:#5C5B5F;  font-size:13.5;">Data do in&#xED;cio dos sintomas;</text>
+    <path style="fill:#FFFFFF;stroke:#D8DADE;stroke-miterlimit:10;" d="M538.001,133.365c0,0.479-1.312,0.868-2.932,0.868H61.974
+		c-1.622,0-2.932-0.389-2.932-0.868v-23.178c0-0.479,1.311-0.868,2.932-0.868h473.096c1.62,0,2.932,0.389,2.932,0.868V133.365z"/>
+    <rect x="65.464" y="116.161" style="fill:none;" width="464.404" height="16.072"/>
+    <text transform="matrix(1 0 0 1 65.4644 126.4443)" style="fill:#5C5B5F;  font-size:13.5;">Cronologia do aparecimento dos sianis e sintomas;</text>
+    <path style="fill:#FFFFFF;stroke:#D8DADE;stroke-miterlimit:10;" d="M538.001,177.862c0,0.549-1.312,0.994-2.932,0.994H61.974
+		c-1.622,0-2.932-0.445-2.932-0.994v-26.549c0-0.549,1.311-0.994,2.932-0.994h473.096c1.62,0,2.932,0.445,2.932,0.994V177.862z"/>
+    <rect x="65.464" y="157.161" style="fill:none;" width="462.271" height="11.419"/>
+    <text transform="matrix(1 0 0 1 65.4644 167.4443)" style="fill:#5C5B5F;  font-size:13.5;">Caracteriza&#xE7;&#xE3;o da curva febril</text>
+    <path style="fill:#FFFFFF;stroke:#D8DADE;stroke-miterlimit:10;" d="M538.001,368.991c0,1.109-1.312,2.01-2.932,2.01H61.974
+		c-1.622,0-2.932-0.9-2.932-2.01v-53.662c0-1.109,1.311-2.01,2.932-2.01h473.096c1.62,0,2.932,0.9,2.932,2.01V368.991z"/>
+    <rect x="65.464" y="320.001" style="fill:none;" width="462.271" height="46"/>
+    <text transform="matrix(1 0 0 1 65.4644 330.2842)">
+      <tspan x="0" y="0" style=" font-size:13.5; text-decoration: underline;"><a xlink:href="javascript:parent.load('H0002','anc05');">Sinais de alarme</a></tspan>
+      <tspan x="100.499" y="0" style="fill:#5C5B5F;  font-size:13.5; text-decoration: underline;">:</tspan>
+      <tspan x="103.907" y="0" style="fill:#5C5B5F;  font-size:13.5;"> sinais cl&#xED;nicos e laboratoriais que anunciam a </tspan>
+      <tspan x="0" y="16.2" style="fill:#5C5B5F;  font-size:13.5;">possibilidade de o paciente com dengue evoluir para a forma grave da </tspan>
+      <tspan x="0" y="32.4" style="fill:#5C5B5F;  font-size:13.5;">doen&#xE7;a.</tspan>
+    </text>
+    <path style="fill:#FFFFFF;stroke:#D8DADE;stroke-miterlimit:10;" d="M538.001,296.284c0,2.053-1.312,3.717-2.932,3.717H61.974
+		c-1.622,0-2.932-1.664-2.932-3.717v-99.248c0-2.053,1.311-3.717,2.932-3.717h473.096c1.62,0,2.932,1.664,2.932,3.717V296.284z"/>
+    <rect x="65.464" y="200.251" style="fill:none;" width="462.271" height="95.75"/>
+    <text transform="matrix(1 0 0 1 65.4644 210.5342)">
+      <tspan x="0" y="0" style="fill:#5C5B5F;  font-size:13.5;">Pesquisa de sangramentos, relato de epistaxe, hemorragias de pele, </tspan>
+      <tspan x="0" y="16.2" style="fill:#5C5B5F;  font-size:13.5;">gengivorragia, hemorragia conjuntival, hemat&#xEA;mese, melena, metrorragia, </tspan>
+      <tspan x="0" y="32.4" style="fill:#5C5B5F;  font-size:13.5;">etc: estas manifesta&#xE7;&#xF5;es tamb&#xE9;m podem ser caracterizadas no exame </tspan>
+      <tspan x="0" y="48.6" style="fill:#5C5B5F;  font-size:13.5;">f&#xED;sico; atentar para sintomas hemorr&#xE1;gicos sutis presentes na hist&#xF3;ria </tspan>
+      <tspan x="0" y="64.8" style="fill:#5C5B5F;  font-size:13.5;">cl&#xED;nica, como v&#xF4;mitos com raios de sangue tipo &#xE1;gua de carne, cor muito </tspan>
+      <tspan x="0" y="81" style="fill:#5C5B5F;  font-size:13.5;">escura tipo borra de caf&#xE9;, e evacua&#xE7;&#xF5;es com fezes de cor escura;</tspan>
+    </text>
+  </g>
+  <g id="Camada_4">
+    <rect x="330.536" y="71.559" style="fill:none;" width="146.131" height="12.439"/>
+    <text transform="matrix(1 0 0 1 370.1689 82.2607)" style="fill:#FFFFFF; font-family:'MyriadPro-Regular'; font-size:15.0731;">Anamnese</text>
+    <rect x="493.536" y="71.559" style="fill:none;" width="146.131" height="12.439"/>
+    <text transform="matrix(1 0 0 1 527.8862 82.2607)" style="fill:#FFFFFF; font-family:'MyriadPro-Regular'; font-size:15.0731;">Exame f&#xED;sico</text>
+  </g>
+  <g id="Camada_3">
+    <rect x="15.738" y="16.221" style="fill:none;" width="308.797" height="15.673"/>
+    <text transform="matrix(1 0 0 1 90.6909 27.2661)" style="fill:#434041;  font-size:14.5;">Hist&#xF3;ria da doen&#xE7;a atual</text>
+  </g>
+  </svg></div>
+<p>Como realizar a <a href="#anc00">anamnese completa em casos suspeitos de dengue</a>?</p>
+<p>Como realizar o <a onClick="makehipertext('H0009');">exame físico completo em casos suspeitos de dengue</a>?</p>
+<div id="footer_topicos">
+  <p><a onClick="makehipertext('H0005');" id="topicoanterior">Tópico anterior</a> <a onClick="makehipertext('H0007');" id="proximoanterior">Próximo tópico</a></p>
+</div>
